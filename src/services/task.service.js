@@ -39,7 +39,7 @@ const updateTaskDetails = async (id, details) => {
 
         }
     } catch (error) {
-        return { statusValue: 0, statusText: 'task assigned failed' };
+        return { statusValue: 0, statusText: 'task updation failed' };
     }
 }
 
